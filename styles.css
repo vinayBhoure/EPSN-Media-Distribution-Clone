@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#title{
+    padding: 0 16%;
+    background-color: #ca0813;
+}
+.logo{
+    width: 19rem;
+    height: 1.5rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-list{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    top: 11px;
+    right: 34px;
+}
+.item-list{
+  
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 5px;
+    margin: 0 3px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.item-list a{
+    color: white;
+}
+
+.item-list a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#coverpage{
+    background : linear-gradient(rgb(0.2,0.8,0.7,0.5), rgb(0.2,0.8,0.7,0.5)) ,url(https://media.istockphoto.com/id/537445040/photo/motocross-rider-performing-high-jump-at-sunset.jpg?b=1&s=170667a&w=0&k=20&c=wJy4x7LfwyeTi-vMRFfp2ki2nztswf7h5tI3EhhtZwo=);
+    opacity: 0.9;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.mainpic{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.photo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    grid-template-rows: repeat(2,170px);
+}
+
+.box{
+color: white;
+background-position: top;
+font-size: 2rem;
+font-style: italic;
+font-weight: bolder;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #222;
+background-blend-mode: color-dodge;
+}
+.bottom{
+    background-color: red;
+   
+    margin: 0px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color:black;
+}
+.box:hover{
+    background-color: black;
+    color: #ca0813;
+    font-size: 2.5rem;
+}
